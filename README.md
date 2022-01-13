@@ -41,7 +41,7 @@ The following python libraries were used:
 - Seaborn: For Visualization
 
 ## Code Execution Background
-Code utilized in Jupyter notebook format (Viewable in 03 - Scripts Folder)
+Code utilized in Jupyter notebook format (Viewable "Scripts" Folder)
 
 Directions to run code:
 * open terminal
