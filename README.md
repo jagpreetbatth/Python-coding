@@ -6,16 +6,15 @@
 
 Quick points:
 
-* Data analysis to study methods to increase ROI for an online shopping website called "InstaCart" using Python, Anaconda and Jupyter.
+* Data analysis to study methods that will help to increase ROI for an online shopping website called "InstaCart" using Python language, Anaconda and Jupyter.
 
-* Exploratory data analyis of customer shopping trends, inventory control and outlook to maximize invested potential and plan for future needs.
+* Exploratory data analysis of customer shopping trends, inventory control and outlook to maximize invested potential and plan for future needs.
 
-About Instacart Data Analysis Project
+## About Instacart Data Analysis Project
 
-## About
-For this project, Instacart is a fictional online grocery company that has hired me as a data analyst. My task is to perform an initial data and exploratory analysis of some of their data in order to derive insights and suggest strategies for better segmentation based on the provided criteria utilizing python. They want me to look into customer purchasing habits and identify common trends to start a targeted marketing strategy. They want to target different customers with applicable marketing campaigns to see whether these campaigns have an effect on the sale of their products.
+Instacart, an existing online grocery platform, requests the use of exploratory data analysis of collected sales and inventory data to derive insights and implementing future strategies to maximize profits and control inventory. In the analysis, customer purchasing trends need to be identified in order to implement targeted marketing efforts. Make a collaborated effort to maximize the potential of key performance indices utilizing the insight gained from this project data analysis to aid in a successful marketing campaign.  
 
-**Note:** *Instacart is a real company that’s made their data available online. However, the contents of this project brief have been fabricated for the purpose of this Achievement.*
+**NOTE:** *Instacart is a non-fictional company with open source data available online. A fictional project brief has been made in order to show case potential questions and problems any online platform may have.*
 
 ## Key Questions
 The Instacart marketing and sales teams have asked a series of business related questions. Here are the main questions they’d like answered:
@@ -32,22 +31,20 @@ The Instacart marketing and sales teams have asked a series of business related 
   - What different classifications does the demographic information suggest? Age? Income? Certain types of goods? Family status?
   - What differences can you find in ordering habits of different customer profiles? Consider the price of orders, the frequency of orders, the products customers are ordering, and anything else you can think of.
 
-## About The Data
-The data was provided by my data analytics course, **Career Foundry**. The data is a combination of multiple open-source data sets from Instacart. A customer data set was created and included for the purpose of this project and does not reflect the actual Instacart company. It is only intended to answer the project's key questions. A full breakdown of each dataset can be found below.
+## Data Background
+Orders, products, departments and customer data used in the project was attained from Career Foundry data analytics database which further attained their data from an open-source database available from the Instacart company website. To preserve privacy of actual customers, a fictional customer database was created and utilized in data analysis for project completion and to reflect true to actual service analysis. A full breakdown of each dataset can be found below.
 
-- Orders Data
-- Products Data
-- Departments Data
-- Customer Data
+## Program library Background
+The following python libraries were used:
 
-## Tools
-For this project, the following python libraries were used:
-
-- Pandas: For Data Analysis
+- Pandas, NumPy: For Data Analysis
 - Seaborn: For Visualization
 
-## Executing The Code
-The code is available as a jupyter notebook, available under /03 Scripts/.
-To launch the notebook, open terminal and run the command:
+## Code Execution Background
+Code utilized in Jupyter notebook format (Viewable in 03 - Scripts Folder)
+
+Directions to run code:
+* open terminal
+* run the command:
 - Importing data: `jupyter notebook importData.ipynb`
 - Generate CrossTabs: `jupyter notebook createCrossTabs.ipynb`
